@@ -15,10 +15,10 @@ if (version_compare(PHP_VERSION,'7.0.0','<')) {
 }
 try {
     error_reporting (-1);
-    require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi.dfn.php';
+    require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/hpapi-hpapi.dfn.php';
     require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi/Hpapi.class.php';
     require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi/Db.class.php';
-    require_once HPAPI_DIR_CONFIG.'/Hpapi.headers.php';
+    require_once HPAPI_DIR_CONFIG.'/hpapi-server.hdr.php';
     new \Hpapi\Hpapi ();
 }
 catch (\Exception $e) {
