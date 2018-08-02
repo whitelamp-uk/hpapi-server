@@ -3,6 +3,7 @@
 
 // FILE SYSTEM LOCATION
 define ('HPAPI_DIR_HPAPI', '../..' );
+define ('HPAPI_DIR_CONFIG', '../../.hpapi' );
 
 
 // INVOKE HPAPI
@@ -17,7 +18,7 @@ try {
     require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi.dfn.php';
     require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi/Hpapi.class.php';
     require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/Hpapi/Db.class.php';
-    require_once '/etc/hpapi/Hpapi.headers.php';
+    require_once HPAPI_DIR_CONFIG.'/Hpapi.headers.php';
     new \Hpapi\Hpapi ();
 }
 catch (\Exception $e) {
