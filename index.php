@@ -3,7 +3,8 @@
 
 // FILE SYSTEM LOCATION
 define ('HPAPI_DIR_HPAPI', '../..' );
-define ('HPAPI_DIR_CONFIG', '../../.hpapi' );
+define ('HPAPI_DIR_CONFIG', '../../.hpapi-config' );
+define ('HPAPI_DIR_LOG', '../../.hpapi-log' );
 
 
 // INVOKE HPAPI
