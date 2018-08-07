@@ -9,10 +9,10 @@ define ('HPAPI_DIR_LOG', '../../.hpapi-log' );
 
 // INVOKE HPAPI
 if (php_sapi_name()=='cli') {
-    die ("002 CLI is not allowed\n");
+    die ("011 CLI is not allowed\n");
 }
 if (version_compare(PHP_VERSION,'7.0.0','<')) {
-    die ('003 Application error: PHP minimum requirement is 7.0.0');
+    die ('012 Application error: PHP minimum requirement is 7.0.0');
 }
 try {
     error_reporting (-1);
@@ -20,7 +20,7 @@ try {
     new \Hpapi\Hpapi ();
 }
 catch (\Exception $e) {
-    die ('004 Application failure\n');
+    die ('013 Application failure\n');
 }
 
 ?>
