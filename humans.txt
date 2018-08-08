@@ -1,1 +1,1 @@
-../../.hpapi/humans.txt
+../../.hpapi-config/humans.txt
