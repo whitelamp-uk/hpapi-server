@@ -16,7 +16,7 @@ if (version_compare(PHP_VERSION,'7.0.0','<')) {
 }
 try {
     error_reporting (-1);
-    require_once HPAPI_DIR_HPAPI.'/whitelamp/hpapi-hpapi/hpapi-hpapi.dfn.php';
+    require_once HPAPI_DIR_HPAPI.'/whitelamp-uk/hpapi-hpapi/hpapi-hpapi.dfn.php';
     new \Hpapi\Hpapi ();
 }
 catch (\Exception $e) {
