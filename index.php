@@ -20,7 +20,7 @@ try {
     new \Hpapi\Hpapi ();
 }
 catch (\Exception $e) {
-    die ('013 Application failure\n');
+    die ("013 Application failure\n");
 }
 
 ?>
