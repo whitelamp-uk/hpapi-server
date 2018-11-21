@@ -19,4 +19,3 @@ header ( 'Access-Control-Expose-Headers: Cache-Control,Content-Language,Content-
 // Chromium caps preflight response persistence at 10 minutes
 header ( 'Access-Control-Max-Age: 600');
 
-?>

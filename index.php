@@ -23,4 +23,3 @@ catch (\Exception $e) {
     die ("013 Application failure\n");
 }
 
-?>
