@@ -1,5 +1,6 @@
 <?php
 
+/* Copyright 2018 Whitelamp http://www.whitelamp.com/ */
 
 // FILE SYSTEM LOCATION
 define ('HPAPI_DIR_HPAPI', '../..' );
